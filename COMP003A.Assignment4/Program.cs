@@ -18,6 +18,19 @@ namespace ClearConsole
             Console.WriteLine("For Loop Section");
             Console.WriteLine("Output a right triangle on user Input");
 
+            Console.Write("Enter a positive whole number: ");
+            int limit = Convert.ToInt32(Console.ReadLine());
+
+            string output = "#";
+
+            for (int i = 0; i <= limit; i++)
+            {
+                Console.WriteLine(output);
+                output += "#";
+            }
+
+            Console.ReadLine();
+
 
 
 
@@ -25,9 +38,10 @@ namespace ClearConsole
             Console.WriteLine("******************************************");
             Console.WriteLine("for each Section");
             Console.WriteLine("output all of Friends in an array");
+            
             string[] friends = new string[] { "Rachel", "Joey", "Chandler", "Ross", "Monica", "Phoebe" };
 
-
+            Console.WriteLine(friends[0]);    
             Console.WriteLine(friends[1]);
             Console.WriteLine(friends[2]);
             Console.WriteLine(friends[3]);
