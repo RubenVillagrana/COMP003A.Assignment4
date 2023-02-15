@@ -44,8 +44,8 @@ namespace ClearConsole
 
 
             Console.WriteLine("******************************************");
-            Console.WriteLine("for each Section");
-            Console.WriteLine("output all of Friends in an array");
+            Console.WriteLine("For each Section");
+            Console.WriteLine("Output all of Friends in an array");
             Console.WriteLine("*******************************************");
 
             //Array//
@@ -66,17 +66,24 @@ namespace ClearConsole
             Console.WriteLine("*********************************************");
 
             {
+                //declare integer named counter and assigned a value of 0//
                 int Counter = 0;
 
                 do
                 {
+                //Output the value of the variable counter//
                     Console.WriteLine(Counter);
+                    
+                //Adding 5 to the counter value//
                     Counter += 5;
+                
+                //counter is less than or equal to 50//
                 } while (Counter <= 50);
 
                 Console.WriteLine("***************************************");
                 Console.WriteLine("While Loop Section");
                 Console.WriteLine("FooBar");
+                Console.WriteLine("****************************************");
 
                 {
                     int counter2 = 1;
